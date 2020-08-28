@@ -15,7 +15,7 @@ namespace _05_TupleSwitchPattern
             {
                 ("one", "two") => 3,
                 ("two", "three") => 5,
-                _ => throw new ArgumentException();
+                _ => throw new ArgumentException(),
             };
         }
     }
