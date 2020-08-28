@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ReadonlyMembers", "01_ReadonlyMembers\01_ReadonlyMembers.csproj", "{12EAF39E-02DB-409D-A486-0E1DB1FEBB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_ReadonlyMembers", "01_ReadonlyMembers\01_ReadonlyMembers.csproj", "{12EAF39E-02DB-409D-A486-0E1DB1FEBB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_DefaultInterfaceMembers", "02_DefaultInterfaceMembers\02_DefaultInterfaceMembers.csproj", "{41942720-07E4-4A7F-B470-A87E2B3AF284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_DefaultInterfaceMembers", "02_DefaultInterfaceMembers\02_DefaultInterfaceMembers.csproj", "{41942720-07E4-4A7F-B470-A87E2B3AF284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SwitchExpressions", "03_SwitchExpressions\03_SwitchExpressions.csproj", "{F205A862-5809-4884-A2E3-691F24ABD5CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_SwitchExpressions", "03_SwitchExpressions\03_SwitchExpressions.csproj", "{F205A862-5809-4884-A2E3-691F24ABD5CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PropertySwitchPatterns", "04_PropertySwitchPatterns\04_PropertySwitchPatterns.csproj", "{7FA07652-1F29-4C4A-A359-BCFFA7075A84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_PropertySwitchPatterns", "04_PropertySwitchPatterns\04_PropertySwitchPatterns.csproj", "{7FA07652-1F29-4C4A-A359-BCFFA7075A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_TupleSwitchPattern", "05_TupleSwitchPattern\05_TupleSwitchPattern.csproj", "{0F9CE77A-749A-49F7-ADB0-70F547AFD886}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_TupleSwitchPattern", "05_TupleSwitchPattern\05_TupleSwitchPattern.csproj", "{0F9CE77A-749A-49F7-ADB0-70F547AFD886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_StaticLocalFunctions", "06_StaticLocalFunctions\06_StaticLocalFunctions.csproj", "{5D7F4E21-21B9-47F4-B50F-871256D860E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_StaticLocalFunctions", "06_StaticLocalFunctions\06_StaticLocalFunctions.csproj", "{5D7F4E21-21B9-47F4-B50F-871256D860E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_AsynchronousStreams", "07_AsynchronousStreams\07_AsynchronousStreams.csproj", "{D8397D73-0932-490D-9F63-0E94CA921E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_AsynchronousStreams", "07_AsynchronousStreams\07_AsynchronousStreams.csproj", "{D8397D73-0932-490D-9F63-0E94CA921E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_IndicesAndRanges", "08_IndicesAndRanges\08_IndicesAndRanges.csproj", "{A38BF5CB-765E-4B1E-A01F-A2697006D0CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D8397D73-0932-490D-9F63-0E94CA921E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8397D73-0932-490D-9F63-0E94CA921E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8397D73-0932-490D-9F63-0E94CA921E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38BF5CB-765E-4B1E-A01F-A2697006D0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38BF5CB-765E-4B1E-A01F-A2697006D0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38BF5CB-765E-4B1E-A01F-A2697006D0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38BF5CB-765E-4B1E-A01F-A2697006D0CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
